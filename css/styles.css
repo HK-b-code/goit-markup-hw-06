@@ -260,6 +260,7 @@ nav ul a:visited {
         align-items: center;
         flex-direction: row;
         gap: 40px;
+        font-style: normal;
     }
 
     .adress-list {
@@ -569,7 +570,7 @@ nav ul a:visited {
 
 @media screen and (min-width: 768px) {
     .concept-list {
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     .concept-title {
