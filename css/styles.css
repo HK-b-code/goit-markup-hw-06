@@ -75,7 +75,6 @@ button {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    width: 320px;
     margin: 0 auto;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
@@ -131,10 +130,6 @@ nav ul a:visited {
 }
 
 @media screen and (min-width: 768px) {
-    .header {
-        width: 768px;
-    }
-
     .menu-mob {
         display: none;
     }
@@ -242,10 +237,6 @@ nav ul a:visited {
 
 
 @media screen and (min-width: 1158px) {
-    .header {
-        width: 1440px;
-    }
-
     .features {
         display: flex;
         gap: 40px;
